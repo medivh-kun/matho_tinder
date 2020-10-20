@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg" style="font-family: 'Source Sans Pro'; font-style: italic;">Reveal Your Inner Mathematico within!
+        <div class="modal fade" id="myModal3" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h4 class="modal-title" style="color: black; font-size: 0.7em; font-style: normal">You are most
+                            likely to be interested in:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p></p>
+                        <div style="display:flex; justify-content: center;">
+                            <img style="height:60%; width:50%; margin:auto" class="modal-content" id="img01">
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="display: flex; justify-content: center;">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" id="restartBtn"
+                            style="font-style: normal;">Click to restart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="containerX">
+            <div class="flip-card-container1">
+                <div class="flip-card">
+                    <div class="flip-card-front" style="color:blue" id="xx">
+                        <img src="cards/Cards(updated)/1.1.jpg" id="c1_front">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="cards/Cards(updated)/1.2.jpg" id="c1_back">
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card-container2">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="cards/Cards(updated)/2.1.jpg" id="c2_front">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="cards/Cards(updated)/2.2.jpg" id="c2_back">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Love_Heart_symbol.svg"
+                    onclick="changeImage()" id="myBtn3">
+            </div>
+            <!-- <button onclick="changeImage()" style="width: 30px;">
+                    
+                </button> -->
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Love_Heart_symbol.svg"
+                    onclick="changeImage2()" id="myBtn2">
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
